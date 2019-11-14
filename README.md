@@ -1,22 +1,15 @@
 ### Conteúdo abordado ao longo do semestre:
 ## 1º estágio:
 
-Selection Sort
+Selection Sort |
 --- | ---
-Insertion Sort
---- | ---
-Bubble Sort
---- | ---
-Merge Sort
---- | ---
-Quick Sort
---- | ---
-Counting Sort
---- | ---
-Radix Sort
---- | ---
-Bucket Sort
---- | ---
+Insertion Sort |
+Bubble Sort |
+Merge Sort |
+Quick Sort |
+Counting Sort |
+Radix Sort |
+Bucket Sort |
 
 ## 2º estágio:
 
