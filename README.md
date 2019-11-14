@@ -4,12 +4,19 @@
 Selection Sort
 --- | ---
 Insertion Sort
+--- | ---
 Bubble Sort
+--- | ---
 Merge Sort
+--- | ---
 Quick Sort
+--- | ---
 Counting Sort
+--- | ---
 Radix Sort
+--- | ---
 Bucket Sort
+--- | ---
 
 ## 2º estágio:
 
