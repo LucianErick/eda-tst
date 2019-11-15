@@ -1,4 +1,5 @@
-package Implementações.BSTImpl;
+package BSTImpl;
+import BSTImpl.Node.*;
 
 import java.util.Deque;
 import java.util.LinkedList;

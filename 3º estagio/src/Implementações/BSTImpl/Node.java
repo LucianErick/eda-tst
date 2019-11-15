@@ -1,4 +1,4 @@
-package Implementações.BSTImpl;
+package BSTImpl;
 
 public class Node {
     private Node direita;
