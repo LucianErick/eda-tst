@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ac78e3-9af3-4195-9fee-53201079c828" name="Default Changelist" comment="" />
+    <list default="true" id="77ac78e3-9af3-4195-9fee-53201079c828" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arvores - 3º estágio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arvores - 3º estágio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arvores - 3º estágio/META-INF/Arvores - 3º estágio.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementações/AVL/AVLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementações/AVLImpl/AVLImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementações/AVL/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementações/AVLImpl/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementações/BSTImpl/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementações/BSTImpl/BSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Implementações/HeapImpl/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Implementações/HeapImpl/HeapImpl.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +24,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TNVY6UZev2v7q4VtWTqzkgSD6B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Psquiza (1) (1)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,13 +58,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuildHeap">
+  <component name="RunManager" selected="Application.HeapImpl">
     <configuration name="BuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TST.Implementações.BuildHeap" />
       <module name="Arvores - 3º estágio" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TST.Implementações.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Implementações.HeapImpl.HeapImpl" />
+      <module name="Arvores - 3º estágio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Implementações.HeapImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapImpl" />
         <item itemvalue="Application.BuildHeap" />
         <item itemvalue="Application.Mais_proximo" />
       </list>
@@ -90,10 +118,28 @@
       <updated>1573300585496</updated>
       <workItem from="1573300586964" duration="4611000" />
       <workItem from="1573688452926" duration="7393000" />
+      <workItem from="1574123059990" duration="1438000" />
+      <workItem from="1574290336074" duration="6747000" />
+      <workItem from="1574334308106" duration="588000" />
+      <workItem from="1574340386206" duration="2679000" />
+      <workItem from="1574725305915" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

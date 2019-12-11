@@ -1,9 +1,15 @@
-package AVL;
+package Implementações.AVLImpl;
+import AVL.Node;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class AVLImpl {
     private Node root;
+    private Queue avl;
 
     public AVLImpl() {
+        avl = new LinkedList<Integer>();
     }
 
     private int height(Node node) {
@@ -45,25 +51,6 @@ public class AVLImpl {
         }
     }
 
-    private void insert(Node node, int value) {
-        Node newNode = new Node(value);
-        if (node.getValue() < value) {
-            if (node.getRight() == null) {
-                node.setRight(newNode);
-                newNode.setParent(node);
-                return;
-            }
-            insert(node.getRight(), value);
-        } else {
-            if (node.getLeft() == null) {
-                node.setLeft(newNode);
-                newNode.setParent(node);
-                return;
-            }
-            insert(node.getLeft(), value);
-        }
-    }
-
     private void rightRotation(Node grandpa) {
 
         Node parent = grandpa.getLeft(); // Define o nó pai
@@ -97,43 +84,34 @@ public class AVLImpl {
             parent.getParent().setRight(parent);
         }
     }
-    private void rightAndLeftRotation(Node grandpa) {
-        Node parent = grandpa.getRight();
-        Node son = parent.getLeft();
 
-        son.setRight(parent);
-        son.setLeft(grandpa);
-
-        parent.setParent(son);
-        parent.setLeft(null);
-
-        grandpa.setRight(null);
-        son.setParent(grandpa.getParent());
-        if (grandpa.getParent().getLeft().equals(grandpa)) {
-            grandpa.getParent().setLeft(son);
+    private void insert(Node node, int value) {
+        Node newNode = new Node(value);
+        if (node.getValue() < value) {
+            if (node.getRight() == null) {
+                node.setRight(newNode);
+                newNode.setParent(node);
+                return;
+            }
+            insert(node.getRight(), value);
         } else {
-            grandpa.getParent().setRight(son);
+            if (node.getLeft() == null) {
+                node.setLeft(newNode);
+                newNode.setParent(node);
+                return;
+            }
+            insert(node.getLeft(), value);
         }
-        grandpa.setParent(son);
+
+        int balance = balance(node);
+        if (balance > 1 && value < node.getLeft().getValue()) {
+        }
     }
 
-    private void leftAndRightRotation(Node grandpa) {
-        Node parent = grandpa.getLeft();
-        Node son = parent.getRight();
+    public void BFS() {
+        Queue<Integer> queue = new LinkedList<>();
+        if (isEmpty()) {
 
-        son.setLeft(parent);
-        son.setRight(grandpa);
-
-        parent.setParent(son);
-        parent.setRight(null);
-
-        grandpa.setLeft(null);
-        son.setParent(grandpa.getParent());
-        if (grandpa.getParent().getLeft().equals(grandpa)) {
-            grandpa.getParent().setLeft(son);
-        } else {
-            grandpa.getParent().setRight(son);
         }
-        grandpa.setParent(son);
     }
 }

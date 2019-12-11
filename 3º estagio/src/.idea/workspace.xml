@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59715046-dd4e-4ec0-81c3-d0b432969a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Implementações/BSTImpl/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implementações/BSTImpl/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Implementações/BSTImpl/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implementações/BSTImpl/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TST/Altura_BST/Altura_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/TST/TST/Altura_BST/Altura_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementações/AVL/AVLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Implementações/AVL/AVLImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +106,7 @@
       <workItem from="1573139162991" duration="2431000" />
       <workItem from="1573165618196" duration="79000" />
       <workItem from="1573811009854" duration="10582000" />
+      <workItem from="1573930944650" duration="1180000" />
     </task>
     <servers />
   </component>
@@ -121,7 +118,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

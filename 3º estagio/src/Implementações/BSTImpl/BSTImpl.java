@@ -1,13 +1,13 @@
-package BSTImpl;
-import BSTImpl.Node.*;
+package Implementações.BSTImpl;
+import BSTImpl.Node;
 
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class BST {
+public class BSTImpl {
     private Node raiz;
 
-    public BST() {
+    public BSTImpl() {
         this.raiz = null;
     }
 
@@ -171,11 +171,15 @@ public class BST {
     private boolean temSoUmFilhoAEsquerda(Node node) {
         return node.getDireita() == null && node.getEsquerda() != null;
     }
-
+    private boolean ehFilhoAEsquerda(Node node) {
+        return node.getPai().getEsquerda().equals(node);
+    }
     private boolean temSoUmFilhoADireita(Node node) {
         return node.getDireita() != null && node.getEsquerda() == null;
     }
-
+    private boolean ehFilhoADireita(Node node) {
+        return node.getPai().getDireita().equals(node);
+    }
     private boolean temDoisFilhos(Node node) {
         return node.getDireita() != null && node.getEsquerda() != null || (node.getEsquerda() != null && node.getDireita() != null);
     }
@@ -185,7 +189,7 @@ public class BST {
             if (toRemove == this.raiz) {
                 this.raiz = null;
             } else {
-                if (toRemove.getValor() < toRemove.getPai().getValor()) {
+                if (ehFilhoAEsquerda(toRemove)) {
                     toRemove.getPai().setEsquerda(null);
                 } else {
                     toRemove.getPai().setDireita(null);
@@ -258,7 +262,7 @@ public class BST {
 
     public void BFS() {
         Deque<Node> queue = new LinkedList<Node>();
-        if (!isEmpty()) {
+        if (isEmpty()) {
             queue.addLast(this.raiz);
             while (!queue.isEmpty()) {
                 Node current = queue.removeFirst();
