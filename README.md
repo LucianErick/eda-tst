@@ -1,4 +1,6 @@
-O conteúdo abordado na disciplina de Estrutura de Dados, no 2019.2 da UFCG, ministrada pelo professor [João Arthur] (https://github.com/joaoarthurbm), abordou, em suma, os seguintes assuntos:
+O conteúdo abordado na disciplina de **Estrutura de Dados**, no 2019.2 da UFCG, ministrada pelo professor [João Arthur] (https://github.com/joaoarthurbm), abordou, **em suma**, os seguintes assuntos:
+
+Entre as pastas, há algumas questões feitas no TST de EDA, utilizadas como atividades extras na avaliação
 
 ## [1º Estágio](https://github.com/LucianErick/eda-tst/tree/master/1%C2%BA%20estagio):
 Algoritimos de Ordenação, por comparação e linear.
@@ -11,14 +13,14 @@ Algoritimos de Ordenação, por comparação e linear.
 - [Busca Binária](https://github.com/LucianErick/eda-tst/blob/master/1%C2%BA%20estagio/src/TST/BuscaBinaria.java)
 - Estatística de Ordem
 
-## 2º Estágio:
+## [2º Estágio](https://github.com/LucianErick/eda-tst/tree/master/2%C2%BA%20estagio):
 Estruturas de dados lineares e tabela Hash
 - [ArrayList](https://github.com/LucianErick/eda-tst/tree/master/2%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/ArrayList)
 - [Pilha](https://github.com/LucianErick/eda-tst/tree/master/2%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/Pilha)
 - [Fila](https://github.com/LucianErick/eda-tst/tree/master/2%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/Fila)
 - [Tabela Hash](https://github.com/LucianErick/eda-tst/tree/master/2%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/HashTable)
 
-## 3º Estágio:
+## [3º Estágio](https://github.com/LucianErick/eda-tst/tree/master/3%C2%BA%20estagio):
 Árvores
 - [Árvore Binária de Pesquisa (BST)](https://github.com/LucianErick/eda-tst/tree/master/3%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/BSTImpl)
 - [Heap](https://github.com/LucianErick/eda-tst/tree/master/3%C2%BA%20estagio/src/Implementa%C3%A7%C3%B5es/HeapImpl)
