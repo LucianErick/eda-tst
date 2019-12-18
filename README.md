@@ -1,7 +1,7 @@
 O conteúdo abordado na disciplina de **Estrutura de Dados**, no 2019.2 da UFCG, ministrada pelo professor 
 [João Arthur](https://github.com/joaoarthurbm), abordou, **em suma**, os seguintes assuntos:
 
-Entre as pastas, há algumas questões feitas no TST de EDA, utilizadas como atividades extras na avaliação
+Entre as pastas, há algumas questões feitas no [TST](http://tst-eda.splab.ufcg.edu.br/) de EDA, utilizadas como atividades extras na avaliação
 
 ## [1º Estágio](https://github.com/LucianErick/eda-tst/tree/master/1%C2%BA%20estagio):
 Algoritimos de Ordenação, por comparação e linear.
