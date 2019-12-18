@@ -1,4 +1,5 @@
-O conteúdo abordado na disciplina de **Estrutura de Dados**, no 2019.2 da UFCG, ministrada pelo professor [João Arthur] (https://github.com/joaoarthurbm), abordou, **em suma**, os seguintes assuntos:
+O conteúdo abordado na disciplina de **Estrutura de Dados**, no 2019.2 da UFCG, ministrada pelo professor 
+[João Arthur](https://github.com/joaoarthurbm), abordou, **em suma**, os seguintes assuntos:
 
 Entre as pastas, há algumas questões feitas no TST de EDA, utilizadas como atividades extras na avaliação
 
